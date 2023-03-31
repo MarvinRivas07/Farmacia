@@ -1,0 +1,16 @@
+C:\Users\ALUMNO\Desktop\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\ALUMNO\Desktop\Farmacia\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\ALUMNO\Desktop\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\ALUMNO\Desktop\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Desktop\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Desktop\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Desktop\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\ALUMNO\Desktop\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
+C:\Users\Marvi\Desktop\marvin-main\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\Marvi\Desktop\marvin-main\Farmacia\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\Marvi\Desktop\marvin-main\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\Marvi\Desktop\marvin-main\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.AssemblyReference.cache
+C:\Users\Marvi\Desktop\marvin-main\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marvi\Desktop\marvin-main\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\Marvi\Desktop\marvin-main\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\Marvi\Desktop\marvin-main\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
