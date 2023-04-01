@@ -22,22 +22,26 @@ namespace Farmacia
                 case 1:
                     tipo="Gripe y tos";
                     Console.WriteLine("La enfermedad que uste tiene " + " " + tipo + " " + "puede ser tratada con los siguientes medicamentos:");
-                    medi.gripeyTos();
+                    medi.gripeyTos(medi.TEnfermedad);
+                    Console.WriteLine(medi.MostrarGP());
                     break;
                 case 2:
                     tipo = "Diarrea";
                     Console.WriteLine("La enfermedad que uste tiene " + " " + tipo + " " + "puede ser tratada con los siguientes medicamentos:");
-                    medi.diarrea();
+                    medi.diarrea(medi.TDiarrea);
+                    Console.WriteLine(medi.MostrarD());
                     break;
                 case 3:
                     tipo = "Quemaduras";
                     Console.WriteLine("Si las" + " " + tipo + " " + "son leves pueden ser tratadas con las siguientes cremas:");
-                    medi.quemadura();
+                    medi.quemadura(medi.TQuemadura);
+                    Console.WriteLine(medi.MostrarQ());
                     break;
                 case 4:
                     tipo = "Dolor de garganta ";
                     Console.WriteLine("La enfermedad que uste tiene " + " " + tipo + " " + "puede ser tratada con los siguientes medicamentos:");
-                    medi.dGarganta();
+                    medi.dGarganta(medi.TGarganta);
+                    Console.WriteLine(medi.MostrarG());
                     break;
 
                
