@@ -21,9 +21,11 @@ namespace Farmacia
                 case 1: 
                     Console.WriteLine("Bienvenido...");
                     Console.ForegroundColor = ConsoleColor.Cyan;
+                    Cliente cliente = new Cliente();
+                    cliente.Datos();
                     enfermedad enfer = new enfermedad();
-                    enfer.Datos();
                     enfer.tiposEnfermedades();
+                    Console.WriteLine(cliente.Ver());
                     break;
                     default:
                     Console.WriteLine("Opcion no valida...");

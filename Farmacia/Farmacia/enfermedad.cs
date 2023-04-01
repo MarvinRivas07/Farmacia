@@ -14,6 +14,7 @@ namespace Farmacia
         public void tiposEnfermedades()
         {
             medicamentos medi = new medicamentos(); 
+            Cliente cliente = new Cliente();
             Console.WriteLine("Que tipo de enfermedad presenta: \n1-Gripe y tos \n2-Diarrea \n3-Quemaduras \n4-Dolor de garganta ");
             int opcion = int.Parse(Console.ReadLine());
 
@@ -42,20 +43,12 @@ namespace Farmacia
                     Console.WriteLine("La enfermedad que uste tiene " + " " + tipo + " " + "puede ser tratada con los siguientes medicamentos:");
                     medi.dGarganta(medi.TGarganta);
                     Console.WriteLine(medi.MostrarG());
+                   
                     break;
 
                
             }
         }
-        public string nombre;
-        public string apellido;
-        public void Datos()
-        {
-            Console.WriteLine("Su nombre por favor:");
-            nombre = Console.ReadLine();
-            Console.WriteLine("Su apellido:");
-            apellido = Console.ReadLine();
-
-        }
+        
     }
 }
