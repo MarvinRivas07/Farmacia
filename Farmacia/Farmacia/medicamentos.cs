@@ -9,7 +9,7 @@ namespace Farmacia
     internal class medicamentos
     {
         private string tEnfermedad;
-
+        enfermedad enfe = new enfermedad();
         public string TEnfermedad { get => tEnfermedad; set => tEnfermedad = value ; }
 
         public void gripeyTos(string _Enfermedad)
@@ -47,6 +47,7 @@ namespace Farmacia
         public String MostrarGP()
         {
             return "Medicamento seleccionado:" + TEnfermedad + "";
+            
         }
         private string tDiarrea;
 

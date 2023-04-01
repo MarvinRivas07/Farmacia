@@ -10,7 +10,7 @@ namespace Farmacia
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Bienvenidos a farmacia MARVIN \n");
             Console.WriteLine("En que le podemos ayudar... \n");
             Console.WriteLine("Opciones \n1-Comprar Medicina  \n2-Salir");
