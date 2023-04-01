@@ -26,6 +26,7 @@ namespace Farmacia
                     enfermedad enfer = new enfermedad();
                     enfer.tiposEnfermedades();
                     Console.WriteLine(cliente.Ver());
+                    Console.WriteLine("!!!GRACIAS POR SU COMPRA!!!");
                     break;
                     default:
                     Console.WriteLine("Opcion no valida...");

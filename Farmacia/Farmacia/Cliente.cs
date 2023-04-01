@@ -21,7 +21,7 @@ namespace Farmacia
         public String Ver()
         {
 
-            return "Nombre de cliente:" + nombre + "   " + "Apellido: " + apellido + "  ";
+            return "DATOS DEL CLIENTE:\nNombre:" + nombre + "   " + "\nApellido:" + apellido + "  ";
         }
 
     }

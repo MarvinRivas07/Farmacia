@@ -22,22 +22,30 @@ namespace Farmacia
             {
                 case 1:
                     TEnfermedad = "Viro Grip";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una " + " " + TEnfermedad + " " + "en el dia y otra en la noche");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le ofrecemos viro grip de dia y de noche, a $0.50 cada unidad");
                     break;
                 case 2:
                     TEnfermedad = "Loratadina";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una" + " " + TEnfermedad + " " + "de 500 gramos cada 12 horas");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le tenemos el blister a $2.50");
                     break;
                 case 3:
                     TEnfermedad = "Te de Limon";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse un" + " " + TEnfermedad + " " + "al dia (disolver en un vaso con agua de 12 onzas)");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le ofrececemos el sobresito de te de limon a $0.25");
                     break;
                 case 4:
                     TEnfermedad = "Jarabe";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una cucharada de" + " " + TEnfermedad + " " + "cada 8 horas");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le tenemos el jarabe a $6.50 cada uno");
                     break;
 
@@ -46,7 +54,7 @@ namespace Farmacia
         }
         public String MostrarGP()
         {
-            return "Medicamento seleccionado:" + TEnfermedad + "";
+            return "\nSU FACTURA:\nMEDICAMENTO SELECCIONADO:\n" + TEnfermedad + "";
             
         }
         private string tDiarrea;
@@ -63,22 +71,30 @@ namespace Farmacia
             {
                 case 1:
                     TDiarrea = "Intestinomicina AD+";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una " + " " + TDiarrea + " " + "de 500 gramos al dia");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le tenemos cada unidad a $0.50");
                     break;
                 case 2:
                     TDiarrea = "Alkaa-D";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una" + " " + TDiarrea + " " + "de 500 gramos cada 12 horas");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le tenemos cada unidad a $0.75");
                     break;
                 case 3:
                     TDiarrea = "Diloxanida";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una" + " " + TDiarrea + " " + "cada 12 horas de 600 gramos ");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le ofrecemos el blister a $1.75");
                     break;
                 case 4:
                     TDiarrea = "Loperamina";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una " + " " + TDiarrea + " " + "cada 8 horas de 450 gramos");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le ofrecemos el blister a $2.00");
                     break;
 
@@ -87,7 +103,7 @@ namespace Farmacia
         }
         public String MostrarD()
         {
-            return "Medicamento seleccionado:" + TDiarrea + "";
+            return "\nSU FACTURA:\nMEDICAMENTO SELECCIONADO:\n" + TDiarrea + "";
         }
         private string tQuemadura;
 
@@ -102,22 +118,30 @@ namespace Farmacia
             {
                 case 1:
                     TQuemadura = "Bepanthol Crema";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Aplicar" + " " + TQuemadura + " " + "en la quemadura 2 veces al dia");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le tenemos el tubito de crema a $10.70");
                     break;
                 case 2:
                     TQuemadura = "Rilastil neoviderm";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Aplicar" + " " + TQuemadura + " " + "en la quemadura 3 veces al dia");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le tenemos el tubito de crema a $11.00");
                     break;
                 case 3:
                     TQuemadura = "Cicapost Crema";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Aplicar" + " " + TQuemadura + " " + "en la quemadura cada 12 horas");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le tenemos el tubito de crema a $12.75");
                     break;
                 case 4:
                     TQuemadura = "A-Derma Epitheliale Crema";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Aplicar" + " " + TQuemadura + " " + "en la quemadura 1 vez al dia");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le tenemos el tubito de crema a $15.00");
                     break;
 
@@ -126,7 +150,7 @@ namespace Farmacia
         }
         public String MostrarQ()
         {
-            return "Medicamento seleccionado:" + TQuemadura + "";
+            return "\nSU FACTURA:\nMEDICAMENTO SELECCIONADO:\n" + TQuemadura + "";
         }
         private string tGarganta;
 
@@ -141,22 +165,30 @@ namespace Farmacia
             {
                 case 1:
                     TGarganta = "Acetaminofen";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una " + " " + TGarganta + " " + " cada 8 horas en caso de tener fiebre");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le ofrecemos el blister a $2.50");
                     break;
                 case 2:
                     TGarganta = "Amoxicilina";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una" + " " + TGarganta + " " + "cada 12 horas de 500 gramos");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le ofrecemos el blister a $2.75");
                     break;
                 case 3:
                     TGarganta = "Panadol";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una" + " " + TGarganta + " " + "cada 12 horas en caso de tener un fuerte dolor de cabez");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le ofrecemos cada unidad a $0.25");
                     break;
                 case 4:
                     TGarganta = "Trimetropin";
+                    Console.WriteLine("\nINDICACIONES:");
                     Console.WriteLine("Tomarse una " + " " + TGarganta + " " + "cada 12 horas de 450 gramos");
+                    Console.WriteLine("PRECIO:");
                     Console.WriteLine("Le ofrecemos el blister a $3.00");
                     break;
 
@@ -165,7 +197,7 @@ namespace Farmacia
         }
         public String MostrarG()
         {
-            return "Medicamento seleccionado:" + TGarganta + "";
+            return "\nSU FACTURA:\nMEDICAMENTO SELECCIONADO:\n" + TGarganta + "";
         }
     }
 }
